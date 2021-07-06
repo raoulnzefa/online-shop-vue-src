@@ -1,9 +1,14 @@
 #cart {
-  width     : 70%;
-  padding   : 30px;
-  margin    : 0 auto;
-  background: #fff;
-  border    : 1px solid #ddd;
+  width        : 70%;
+  padding      : 30px;
+  margin       : 0 auto;
+  background   : #fff;
+  border       : 1px solid #ddd;
+  border-radius: 5px;
+
+  @media (max-width: 1255px) {
+    width: 100%;
+  }
 
   h1 {
     margin    : 20px 0 40px 0;

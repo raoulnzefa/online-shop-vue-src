@@ -1,6 +1,10 @@
 .app-page {
   width : 80%;
   margin: 0 auto;
+
+  @media (max-width: 1255px) {
+    width: 100%;
+  }
 }
 
 .catalog {
@@ -12,8 +16,9 @@
   .catalog__filter {
     background    : #fff;
     border        : 1px solid #ddd;
+    border-radius : 5px;
     padding       : 20px;
-    width         : 200px;
+    width         : 190px;
     display       : flex;
     flex-direction: column;
 
@@ -22,7 +27,7 @@
     }
 
     .check {
-      padding-left: 18px;
+      padding-left: 22px;
 
       .check__input {
         -moz-appearance   : none;
@@ -37,7 +42,7 @@
         background-color: #fff;
         box-shadow      : 0 0 0 2px $bgColor;
         border-radius   : 3px;
-        margin-left     : -18px;
+        margin-left     : -22px;
         text-align      : center;
       }
 
@@ -53,12 +58,14 @@
   }
 
   .catalog__products {
-    display   : flex;
-    flex-wrap : wrap;
-    width     : 80%;
-    background: #fff;
-    border    : 1px solid #ddd;
-    text-align: center;
+    display            : flex;
+    flex-wrap          : wrap;
+    // width           : 80%;
+    width              : calc(100% - 205px);
+    background         : #fff;
+    border             : 1px solid #ddd;
+    border-radius      : 5px;
+    text-align         : center;
 
     .catalog__null {
       padding: 40px 20px;
@@ -73,6 +80,10 @@
       align-items   : center;
       margin        : 5px;
       padding       : 20px;
+
+      @media (max-width: 1040px) {
+        flex-basis: 48%;
+      }
 
       .catalog__image {
         height: 130px;

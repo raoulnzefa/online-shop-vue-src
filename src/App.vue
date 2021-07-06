@@ -17,6 +17,7 @@
           <input
             class="form-search__input"
             type="text"
+            placeholder="Поиск по каталогу"
             v-model="searchVal"
             @searchValTestt='searchValTestt'
           >

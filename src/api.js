@@ -6,7 +6,7 @@ const products = [
       category: "gorshki",
       subcategory: "Керамические",
       id: "Gc1",
-      available: false,
+      available: true,
       quantity: 1
     },
     {
@@ -29,26 +29,26 @@ const products = [
       available: false,
       quantity: 1
     },
-    {
-      image: "gorshok_keramicheskiy-4.jpeg",
-      name: "Металлик",
-      price: 399,
-      category: "gorshki",
-      subcategory: "Керамические",
-      id: "Gc4",
-      available: true,
-      quantity: 1
-    },
-    {
-      image: "gorshok_keramicheskiy-5.jpeg",
-      name: "Барилка",
-      price: 590,
-      category: "gorshki",
-      subcategory: "Керамические",
-      id: "Gc5",
-      available: true,
-      quantity: 1
-    },
+    // {
+    //   image: "gorshok_keramicheskiy-4.jpeg",
+    //   name: "Металлик",
+    //   price: 399,
+    //   category: "gorshki",
+    //   subcategory: "Керамические",
+    //   id: "Gc4",
+    //   available: true,
+    //   quantity: 1
+    // },
+    // {
+    //   image: "gorshok_keramicheskiy-5.jpeg",
+    //   name: "Барилка",
+    //   price: 590,
+    //   category: "gorshki",
+    //   subcategory: "Керамические",
+    //   id: "Gc5",
+    //   available: true,
+    //   quantity: 1
+    // },
     {
       image: "gorshok_keramicheskiy-6.jpeg",
       name: "Антика",
@@ -59,26 +59,26 @@ const products = [
       available: true,
       quantity: 1
     },
-    {
-      image: "gorshok_keramicheskiy-7.jpeg",
-      name: "Горшок керамический Зефир",
-      price: 1180,
-      category: "gorshki",
-      subcategory: "Керамические",
-      id: "Gc7",
-      available: true,
-      quantity: 1
-    },
-    {
-      image: "gorshok_keramicheskiy-8.jpeg",
-      name: "Капля",
-      price: 850,
-      category: "gorshki",
-      subcategory: "Керамические",
-      id: "Gc8",
-      available: true,
-      quantity: 1
-    },
+    // {
+    //   image: "gorshok_keramicheskiy-7.jpeg",
+    //   name: "Горшок керамический Зефир",
+    //   price: 1180,
+    //   category: "gorshki",
+    //   subcategory: "Керамические",
+    //   id: "Gc7",
+    //   available: true,
+    //   quantity: 1
+    // },
+    // {
+    //   image: "gorshok_keramicheskiy-8.jpeg",
+    //   name: "Капля",
+    //   price: 850,
+    //   category: "gorshki",
+    //   subcategory: "Керамические",
+    //   id: "Gc8",
+    //   available: false,
+    //   quantity: 1
+    // },
     {
       image: "gorshok_plastic-1.jpeg",
       name: "Фелиция",
@@ -206,7 +206,7 @@ const products = [
       category: "rasteniia",
       subcategory: "Цветущие",
       id: "R3",
-      available: true,
+      available: false,
       quantity: 1
     },
     {
@@ -356,7 +356,7 @@ const products = [
       category: "rasteniia",
       subcategory: "Цветущие",
       id: "R18",
-      available: true,
+      available: false,
       quantity: 1
     },
     {
@@ -506,7 +506,7 @@ const products = [
       category: "rasteniia",
       subcategory: "Декоративно-лиственные",
       id: "R33",
-      available: true,
+      available: false,
       quantity: 1
     },
     {
